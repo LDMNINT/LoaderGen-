@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\XGui">
+      <UniqueIdentifier>{e03e8ad5-c130-42a0-b198-21098532e65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XGui">
+      <UniqueIdentifier>{d13f42cf-c29d-4df7-94e4-106168789367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Include">
+      <UniqueIdentifier>{ba1262fa-2628-4689-982d-4828d577f4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GHLGen">
+      <UniqueIdentifier>{eb9b4867-066a-4522-8ff7-dedc4ff5a53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GHLGen">
+      <UniqueIdentifier>{85df444c-c3d9-4ee2-b717-8c73943e1f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{af28de48-3b63-4c17-9be4-20cf78ecb06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{a2032e04-d54d-4d7b-9cd8-b66266e39882}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\stdafx.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GHLGen.h">
+      <Filter>Header Files\GHLGen</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XBitmap.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XButton.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XCheckBox.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XComboBox.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XControl.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XControls.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XDialog.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XEdit.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XFileDialog.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XFont.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XGroupBox.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XLabel.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XListBox.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XListView.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XMainWindow.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XOwnerDrawControl.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XRadioButton.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XRichText.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XSysLink.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XTabControl.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XTrackBar.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="XGui\XWindow.h">
+      <Filter>Header Files\XGui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcManager.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="XResource.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GHLMainWindow.h">
+      <Filter>Header Files\GHLGen</Filter>
+    </ClInclude>
+    <ClInclude Include="GHLProcPicker.h">
+      <Filter>Header Files\GHLGen</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderGen.h">
+      <Filter>Header Files\GHLGen</Filter>
+    </ClInclude>
+    <ClInclude Include="Binary.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UPX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GHLGen.cpp">
+      <Filter>Source Files\GHLGen</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XBitmap.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XButton.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XCheckBox.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XComboBox.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XControl.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XControls.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XDialog.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XEdit.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XFileDialog.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XFont.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XGroupBox.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XLabel.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XListBox.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XListView.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XMainWindow.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XOwnerDrawControl.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XRadioButton.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XRichText.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XSysLink.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XTabControl.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XTrackBar.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XGui\XWindow.cpp">
+      <Filter>Source Files\XGui</Filter>
+    </ClCompile>
+    <ClCompile Include="XResource.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcManager.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="GHLMainWindow.cpp">
+      <Filter>Source Files\GHLGen</Filter>
+    </ClCompile>
+    <ClCompile Include="GHLProcPicker.cpp">
+      <Filter>Source Files\GHLGen</Filter>
+    </ClCompile>
+    <ClCompile Include="LoaderGen.cpp">
+      <Filter>Source Files\GHLGen</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UPX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GHLoaderGen.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GHLoader_v2x86.exe">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GHLoader_v2x64.exe">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GH Injector - x64.exe">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GH Injector - x86.exe">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="upx.exe">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

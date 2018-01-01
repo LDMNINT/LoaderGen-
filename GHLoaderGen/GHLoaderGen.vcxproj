@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{87CA920E-2A41-4DF8-9F23-1C2D751BBBD5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GHLoaderGen</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>X:\My Programs\C++ Projects\GHLoaderGen\GHLoaderGen\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(LocalDebuggerWorkingDirectory)Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>X:\My Programs\C++ Projects\GHLoaderGen\GHLoaderGen\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>X:\My Programs\C++ Projects\GHLoaderGen\GHLoaderGen\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Binary.h" />
+    <ClInclude Include="ExtractIcon.h" />
+    <ClInclude Include="GHLGen.h" />
+    <ClInclude Include="GHLMainWindow.h" />
+    <ClInclude Include="GHLProcPicker.h" />
+    <ClInclude Include="Include\stdafx.h" />
+    <ClInclude Include="LoaderGen.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="ProcManager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="UPX.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="XGui\XBitmap.h" />
+    <ClInclude Include="XGui\XButton.h" />
+    <ClInclude Include="XGui\XCheckBox.h" />
+    <ClInclude Include="XGui\XComboBox.h" />
+    <ClInclude Include="XGui\XControl.h" />
+    <ClInclude Include="XGui\XControls.h" />
+    <ClInclude Include="XGui\XDialog.h" />
+    <ClInclude Include="XGui\XEdit.h" />
+    <ClInclude Include="XGui\XFileDialog.h" />
+    <ClInclude Include="XGui\XFont.h" />
+    <ClInclude Include="XGui\XGroupBox.h" />
+    <ClInclude Include="XGui\XLabel.h" />
+    <ClInclude Include="XGui\XListBox.h" />
+    <ClInclude Include="XGui\XListView.h" />
+    <ClInclude Include="XGui\XMainWindow.h" />
+    <ClInclude Include="XGui\XOwnerDrawControl.h" />
+    <ClInclude Include="XGui\XRadioButton.h" />
+    <ClInclude Include="XGui\XRichText.h" />
+    <ClInclude Include="XGui\XSysLink.h" />
+    <ClInclude Include="XGui\XTabControl.h" />
+    <ClInclude Include="XGui\XTrackBar.h" />
+    <ClInclude Include="XGui\XWindow.h" />
+    <ClInclude Include="XIcon.h" />
+    <ClInclude Include="XResource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Binary.cpp" />
+    <ClCompile Include="ExtractIcon.cpp" />
+    <ClCompile Include="GHLGen.cpp" />
+    <ClCompile Include="GHLMainWindow.cpp" />
+    <ClCompile Include="GHLProcPicker.cpp" />
+    <ClCompile Include="LoaderGen.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="ProcManager.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="UPX.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="XGui\XBitmap.cpp" />
+    <ClCompile Include="XGui\XButton.cpp" />
+    <ClCompile Include="XGui\XCheckBox.cpp" />
+    <ClCompile Include="XGui\XComboBox.cpp" />
+    <ClCompile Include="XGui\XControl.cpp" />
+    <ClCompile Include="XGui\XControls.cpp" />
+    <ClCompile Include="XGui\XDialog.cpp" />
+    <ClCompile Include="XGui\XEdit.cpp" />
+    <ClCompile Include="XGui\XFileDialog.cpp" />
+    <ClCompile Include="XGui\XFont.cpp" />
+    <ClCompile Include="XGui\XGroupBox.cpp" />
+    <ClCompile Include="XGui\XLabel.cpp" />
+    <ClCompile Include="XGui\XListBox.cpp" />
+    <ClCompile Include="XGui\XListView.cpp" />
+    <ClCompile Include="XGui\XMainWindow.cpp" />
+    <ClCompile Include="XGui\XOwnerDrawControl.cpp" />
+    <ClCompile Include="XGui\XRadioButton.cpp" />
+    <ClCompile Include="XGui\XRichText.cpp" />
+    <ClCompile Include="XGui\XSysLink.cpp" />
+    <ClCompile Include="XGui\XTabControl.cpp" />
+    <ClCompile Include="XGui\XTrackBar.cpp" />
+    <ClCompile Include="XGui\XWindow.cpp" />
+    <ClCompile Include="XIcon.cpp" />
+    <ClCompile Include="XResource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GHLoaderGen.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GH Injector - x64.exe" />
+    <None Include="GH Injector - x86.exe" />
+    <None Include="GHLoader_v2x64.exe" />
+    <None Include="GHLoader_v2x86.exe">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="upx.exe" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
